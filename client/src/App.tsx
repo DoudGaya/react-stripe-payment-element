@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import Payment from './pages/Payment'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Success from './pages/Success'
@@ -8,7 +6,7 @@ import Success from './pages/Success'
 
 function App() {
   return (
-   <main>
+   <main className=''>
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Payment />} />
